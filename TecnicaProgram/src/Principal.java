@@ -36,7 +36,6 @@ public class Principal {
             @Override
             public void actionPerformed(final ActionEvent actionEvent) {
                 try {
-                    Class.forName("com.mysql.cj.jdbc.Driver");
                     stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
 
                     String query = "INSERT INTO curso VALUES(" +
