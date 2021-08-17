@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Principal">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FormLayout">
+    <rowspec value="bottom:48px:noGrow"/>
+    <rowspec value="top:3dlu:noGrow"/>
+    <rowspec value="center:0px:grow"/>
+    <rowspec value="top:3dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:3dlu:noGrow"/>
+    <rowspec value="center:d:grow"/>
+    <rowspec value="top:3dlu:noGrow"/>
+    <rowspec value="center:-32px:grow"/>
+    <rowspec value="top:3dlu:noGrow"/>
+    <rowspec value="center:30px:noGrow"/>
+    <rowspec value="top:3dlu:noGrow"/>
+    <rowspec value="center:0px:grow"/>
+    <colspec value="fill:d:grow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:d:grow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:d:grow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:d:grow"/>
+    <constraints>
+      <xy x="20" y="20" width="595" height="500"/>
+    </constraints>
+    <properties>
+      <autoscrolls value="false"/>
+      <minimumSize width="550" height="400"/>
+      <preferredSize width="550" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="d2a" class="javax.swing.JButton" binding="primeiroButton" default-binding="true">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="&lt;&lt; Primeiro"/>
+        </properties>
+      </component>
+      <component id="f45d3" class="javax.swing.JButton" binding="anteriorButton" default-binding="true">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="414" height="30"/>
+          </grid>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="&lt; Anterior"/>
+        </properties>
+      </component>
+      <component id="496da" class="javax.swing.JButton" binding="proximoButton">
+        <constraints>
+          <grid row="12" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Próximo &gt;"/>
+        </properties>
+      </component>
+      <component id="330b7" class="javax.swing.JButton" binding="ultimoButton">
+        <constraints>
+          <grid row="12" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Último &gt;&gt;"/>
+        </properties>
+      </component>
+      <component id="eb98d" class="javax.swing.JButton" binding="limparCamposButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="6" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <text value="Limpar Campos"/>
+        </properties>
+      </component>
+      <component id="dd75b" class="javax.swing.JTextField" binding="txtNome">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="414" height="30"/>
+          </grid>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="9f2ad" class="javax.swing.JButton" binding="deletarButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="414" height="30"/>
+          </grid>
+          <forms top="0" left="20" bottom="0" right="20"/>
+        </constraints>
+        <properties>
+          <text value="Deletar"/>
+        </properties>
+      </component>
+      <component id="c7a0" class="javax.swing.JButton" binding="atualizarButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="4" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <text value="Atualizar"/>
+        </properties>
+      </component>
+      <component id="59495" class="javax.swing.JButton" binding="inserirButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <text value="Inserir"/>
+        </properties>
+      </component>
+      <component id="3794e" class="javax.swing.JTextField" binding="txtDescricao">
+        <constraints>
+          <grid row="4" column="2" row-span="3" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="414" height="30"/>
+          </grid>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9e1d7" class="javax.swing.JTextField" binding="txtSigla">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d60cf" class="javax.swing.JLabel" binding="labelSigla">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <text value="Sigla"/>
+        </properties>
+      </component>
+      <component id="dd0b3" class="javax.swing.JLabel" binding="labelNome">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <text value="Nome"/>
+        </properties>
+      </component>
+      <component id="ba7b5" class="javax.swing.JLabel" binding="labelDescr">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <text value="Descrição"/>
+        </properties>
+      </component>
+      <component id="6f637" class="javax.swing.JTextArea" binding="navegacao">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="2" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="false"/>
+          <font size="22" style="1"/>
+          <foreground color="-1"/>
+          <text value="Navegação entre Registros"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
